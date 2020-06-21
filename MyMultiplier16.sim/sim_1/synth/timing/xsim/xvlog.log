@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/TheBetterKong/VivadoWorkplace/MyMultiplier16/MyMultiplier16.sim/sim_1/synth/timing/xsim/multiplier_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopMultiplier
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/TheBetterKong/VivadoWorkplace/MyMultiplier16/multiplier_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplier_compare
+INFO: [VRFC 10-311] analyzing module multiplier_tb

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Jun 14 00:46:05 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="314a78be033a4f77b98225ff30daa15b" type="ProjectID"/>
+<property name="ProjectIteration" value="13" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Flow_AreaOptimized_high" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Performance_Explore" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="RunDesignAhead" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="10" type="JavaHandler"/>
+<property name="RunSynthesis" value="12" type="JavaHandler"/>
+<property name="SaveDesign" value="8" type="JavaHandler"/>
+<property name="ShowView" value="32" type="JavaHandler"/>
+<property name="SimulationRun" value="3" type="JavaHandler"/>
+<property name="ToolsSettings" value="6" type="JavaHandler"/>
+<property name="ToolsTemplates" value="7" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="5" type="JavaHandler"/>
+<property name="XdcCreateClock" value="3" type="JavaHandler"/>
+<property name="XdcSetFalsePath" value="1" type="JavaHandler"/>
+<property name="XdcSetInputDelay" value="4" type="JavaHandler"/>
+<property name="XdcSetOutputDelay" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Handlers">
+<property name="AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS" value="1" type="GuiHandlerData"/>
+<property name="AbstractFileView_CLOSE" value="1" type="GuiHandlerData"/>
+<property name="AbstractFileView_RELOAD" value="4" type="GuiHandlerData"/>
+<property name="AbstractValidateXdcTask_CONTINUE" value="2" type="GuiHandlerData"/>
+<property name="BaseDialog_APPLY" value="4" type="GuiHandlerData"/>
+<property name="BaseDialog_CANCEL" value="5" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="102" type="GuiHandlerData"/>
+<property name="BaseDialog_YES" value="3" type="GuiHandlerData"/>
+<property name="CheckTimingSectionPanel_CHECK_TIMING_SELECTION_TABLE" value="31" type="GuiHandlerData"/>
+<property name="ClockCreationPanel_ADD_THIS_CLOCK_TO_EXISTING_CLOCK" value="3" type="GuiHandlerData"/>
+<property name="ClockCreationPanel_CLOCK_NAME" value="3" type="GuiHandlerData"/>
+<property name="ClockCreationPanel_ENTER_POSITIVE_NUMBER" value="3" type="GuiHandlerData"/>
+<property name="ClosePlanner_YES" value="1" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="7" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_ADD_FILES" value="2" type="GuiHandlerData"/>
+<property name="ConstraintsChooserPanel_FILE_TABLE" value="1" type="GuiHandlerData"/>
+<property name="DesignAheadWizard_IMPLEMENTATION" value="1" type="GuiHandlerData"/>
+<property name="DesignTimingSumSectionPanel_WORST_NEGATIVE_SLACK" value="1" type="GuiHandlerData"/>
+<property name="EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE" value="25" type="GuiHandlerData"/>
+<property name="EditIODelayTablePanel_EDIT_IO_DELAY_TABLE" value="41" type="GuiHandlerData"/>
+<property name="ExpRunMenu_LAUNCH_STEP" value="3" type="GuiHandlerData"/>
+<property name="ExpRunPropPanels_NAME" value="1" type="GuiHandlerData"/>
+<property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="34" type="GuiHandlerData"/>
+<property name="ExploreAheadView_LAUNCH_SELECTED_RUNS" value="1" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="21" type="GuiHandlerData"/>
+<property name="Finder_ADD_NEW_CRITERION" value="1" type="GuiHandlerData"/>
+<property name="Finder_REMOVE_THIS_CRITERION" value="2" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="45" type="GuiHandlerData"/>
+<property name="GetObjectsDialog_FIND" value="31" type="GuiHandlerData"/>
+<property name="GetObjectsDialog_SPECIFY_OF_OBJECTS_OPTION" value="1" type="GuiHandlerData"/>
+<property name="GetObjectsPanel_APPEND" value="1" type="GuiHandlerData"/>
+<property name="GetObjectsPanel_SET" value="3" type="GuiHandlerData"/>
+<property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="HDualList_FIND_RESULTS" value="6" type="GuiHandlerData"/>
+<property name="HDualList_MOVE_ALL_ITEMS_TO_RIGHT" value="4" type="GuiHandlerData"/>
+<property name="HDualList_MOVE_SELECTED_ITEMS_TO_RIGHT" value="24" type="GuiHandlerData"/>
+<property name="HJFileChooserHelpers_REFRESH_FOLDER_VIEW_TO_REFLECT_EXTERNAL" value="1" type="GuiHandlerData"/>
+<property name="HTable_SET_ELIDING_FOR_TABLE_CELLS" value="1" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_ADD_DELAY_INFORMATION_TO_EXISTING" value="1" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_DELAY_VALUE" value="8" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_DELAY_VALUE_SPECIFIES" value="6" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_SPECIFY_CLOCK_PIN_OR_PORT" value="5" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_SPECIFY_CLOCK_PIN_OR_PORT_TO_WHICH_OUTPUT" value="1" type="GuiHandlerData"/>
+<property name="IODelayCreationPanel_SPECIFY_LIST_OF_PORTS" value="4" type="GuiHandlerData"/>
+<property name="IntraClocksSectionPanel_INTRA_CLOCKS_SECTION_TABLE" value="3" type="GuiHandlerData"/>
+<property name="LanguageTemplatesDialog_TEMPLATES_TREE" value="42" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FLOORPLANNING" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IO" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_IO_PLANNING" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="3" type="GuiHandlerData"/>
+<property name="MainMenuMgr_REPORTS" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TIMING" value="3" type="GuiHandlerData"/>
+<property name="MainMenuMgr_TOOLS" value="4" type="GuiHandlerData"/>
+<property name="MsgTreePanel_MESSAGE_VIEW_TREE" value="25" type="GuiHandlerData"/>
+<property name="NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE" value="28" type="GuiHandlerData"/>
+<property name="PACommandNames_ADD_SOURCES" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_AUTO_UPDATE_HIER" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_CLOSE_PROJECT" value="3" type="GuiHandlerData"/>
+<property name="PACommandNames_DESIGN_AHEAD" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_LANGUAGE_TEMPLATES" value="7" type="GuiHandlerData"/>
+<property name="PACommandNames_REPORTS_WINDOW" value="5" type="GuiHandlerData"/>
+<property name="PACommandNames_RUN_IMPLEMENTATION" value="5" type="GuiHandlerData"/>
+<property name="PACommandNames_SAVE_DESIGN" value="9" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RESET" value="2" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RUN" value="4" type="GuiHandlerData"/>
+<property name="PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING" value="3" type="GuiHandlerData"/>
+<property name="PAViews_CODE" value="7" type="GuiHandlerData"/>
+<property name="PAViews_DEVICE" value="3" type="GuiHandlerData"/>
+<property name="PAViews_PROJECT_SUMMARY" value="3" type="GuiHandlerData"/>
+<property name="PAViews_TIMING_CONSTRAINTS" value="1" type="GuiHandlerData"/>
+<property name="PathMenu_SET_FALSE_PATH" value="1" type="GuiHandlerData"/>
+<property name="PathMenu_STARTPOINT_TO_ENDPOINT" value="1" type="GuiHandlerData"/>
+<property name="ProgramOptionsPanelImpl_DESCRIPTION" value="18" type="GuiHandlerData"/>
+<property name="ProgramOptionsPanelImpl_STRATEGY" value="25" type="GuiHandlerData"/>
+<property name="ProgramOptionsPanelImpl_WRITE_INCREMENTAL_SYNTHESIS" value="2" type="GuiHandlerData"/>
+<property name="ProjectNameChooser_PROJECT_NAME" value="1" type="GuiHandlerData"/>
+<property name="ProjectSummaryPowerPanel_TABBED_PANE" value="3" type="GuiHandlerData"/>
+<property name="ProjectSummaryTimingPanel_OPEN_TIMING_SUMMARY_REPORT" value="4" type="GuiHandlerData"/>
+<property name="ProjectSummaryTimingPanel_PROJECT_SUMMARY_TIMING_PANEL_TABBED" value="7" type="GuiHandlerData"/>
+<property name="ProjectSummaryUtilizationPanel_PROJECT_SUMMARY_UTILIZATION_PANEL_TABBED" value="10" type="GuiHandlerData"/>
+<property name="ProjectTab_CLOSE_DESIGN" value="5" type="GuiHandlerData"/>
+<property name="ProjectTab_RELOAD" value="3" type="GuiHandlerData"/>
+<property name="RDICommands_DELETE" value="1" type="GuiHandlerData"/>
+<property name="RDICommands_LINE_COMMENT" value="2" type="GuiHandlerData"/>
+<property name="RDICommands_SAVE_FILE" value="6" type="GuiHandlerData"/>
+<property name="RDIViews_WAVEFORM_VIEWER" value="1" type="GuiHandlerData"/>
+<property name="RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES" value="2" type="GuiHandlerData"/>
+<property name="RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES" value="1" type="GuiHandlerData"/>
+<property name="SaveProjectUtils_CANCEL" value="2" type="GuiHandlerData"/>
+<property name="SdcGetObjectsPanel_SPECIFY_CLOCK_SOURCE_OBJECTS" value="4" type="GuiHandlerData"/>
+<property name="SelectMenu_HIGHLIGHT" value="2" type="GuiHandlerData"/>
+<property name="SelectMenu_MARK" value="2" type="GuiHandlerData"/>
+<property name="SettingsDialog_PROJECT_TREE" value="15" type="GuiHandlerData"/>
+<property name="SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT" value="2" type="GuiHandlerData"/>
+<property name="SrcMenu_IP_HIERARCHY" value="1" type="GuiHandlerData"/>
+<property name="StaleRunDialog_NO" value="1" type="GuiHandlerData"/>
+<property name="StaleRunDialog_OPEN_DESIGN" value="4" type="GuiHandlerData"/>
+<property name="StaleRunDialog_YES" value="2" type="GuiHandlerData"/>
+<property name="SyntheticaGettingStartedView_RECENT_PROJECTS" value="4" type="GuiHandlerData"/>
+<property name="TaskBanner_CLOSE" value="18" type="GuiHandlerData"/>
+<property name="TimingItemFlatTablePanel_FLOORPLANNING" value="2" type="GuiHandlerData"/>
+<property name="TimingItemFlatTablePanel_TABLE" value="11" type="GuiHandlerData"/>
+<property name="TimingSumResultsTab_SHOW_ONLY_FAILING_CHECKS" value="1" type="GuiHandlerData"/>
+<property name="WaveformView_NEXT_TRANSITION" value="18" type="GuiHandlerData"/>
+<property name="WaveformView_PREVIOUS_TRANSITION" value="5" type="GuiHandlerData"/>
+<property name="XdcCategoryTree_XDC_CATEGORY_TREE" value="51" type="GuiHandlerData"/>
+<property name="XdcEditorView_APPLY_ALL_CHANGES_TO_XDC_CONSTRAINTS" value="7" type="GuiHandlerData"/>
+<property name="XdcTableEditorsPanel_REMOVE_SELECTED_ROW" value="2" type="GuiHandlerData"/>
+<property name="XdcViewerTreeTablePanel_XDC_VIEWER_TREE_TABLE" value="10" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="3" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="1" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
